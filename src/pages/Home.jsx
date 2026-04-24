@@ -9,7 +9,6 @@ const Home = () => {
             navigate(`/room/${input}`)
         }
         else {
-            console.log('Room ID cannot be empty');
             alert('Room ID cannot be empty')
         }
     }
